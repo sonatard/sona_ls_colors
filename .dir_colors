@@ -538,9 +538,6 @@ EXEC 32  # Unix
 .ANSI-37-white 37
 .ANSI-01;37-brwhite 01;37
 
-#############################################################################
-# Your customizations
-
 # Unimportant text files
 # For universal scheme, use brightgreen 01;32
 # For optimal on light bg (but too prominent on dark bg), use white 01;34
