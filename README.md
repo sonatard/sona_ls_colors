@@ -1,6 +1,8 @@
 sona_ls_colors
 ==============
 
+![ls_colors ex](http://cdn-ak.f.st-hatena.com/images/fotolife/s/sona-zip/20130622/20130622182607_original.png)
+
 LS_COLORS setting file and test-directory for many files and may programming language
 
 
