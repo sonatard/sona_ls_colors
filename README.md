@@ -20,7 +20,7 @@ vi ~/.zshenv
 [ -z $LS_COLORS ] && eval `dircolors -b ~/.dir_colors`
 ```
 
-zsh completion color same as GNU ls color
+zsh completion color same as GNU ls color  
 vi ~/.zshrc
 ```sh
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
