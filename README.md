@@ -38,6 +38,8 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 ![ls_colors web](http://cdn-ak.f.st-hatena.com/images/fotolife/s/sona-zip/20130622/20130622213236.png)
 
 
+
+# extension examples
 ## execute
 exe,com,app,bin
 
