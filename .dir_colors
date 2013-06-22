@@ -225,6 +225,7 @@ EXEC 32  # Unix
 .lisp 01;32
 .lazy 01;32
 .hs 01;32
+.lhs 01;32
 .p 01;32
 .pas 01;32
 .scm 01;32

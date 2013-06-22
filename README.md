@@ -1,16 +1,43 @@
 sona_ls_colors
 ==============
 
-![ls_colors ex](http://cdn-ak.f.st-hatena.com/images/fotolife/s/sona-zip/20130622/20130622182607_original.png)
+LS_COLORS setting file for many files and many programming language
 
-LS_COLORS setting file and test-directory for many files and may programming language
-
-# Insatllation instructions
+# Usage 
 This file goes in the /etc directory, and must be world readable.
 You can copy this file to .dir_colors in your $HOME directory to override
 the system defaults.
 
-# for exapmle
+```sh
+git clone https://github.com/sona-tar/sona_ls_colors.git
+cd sona_ls_colors
+cp .dir_colors ~/
+dircolors -b ~/.dir_colors
+```
+
+vi ~/.zshenv
+```sh
+[ -z $LS_COLORS ] && eval `dircolors -b ~/.dir_colors`
+```
+
+zsh completion color same as GNU ls color
+vi ~/.zshrc
+```sh
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+```
+
+# Screenshot
+## file type
+![ls_colors file_type](http://cdn-ak.f.st-hatena.com/images/fotolife/s/sona-zip/20130622/20130622182607_original.png)
+
+## C
+
+![ls_colors c](http://cdn-ak.f.st-hatena.com/images/fotolife/s/sona-zip/20130622/20130622213213.png)
+
+## web
+![ls_colors web](http://cdn-ak.f.st-hatena.com/images/fotolife/s/sona-zip/20130622/20130622213236.png)
+
+
 ## execute
 exe,com,app,bin
 
