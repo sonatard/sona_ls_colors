@@ -5,6 +5,10 @@ sona_ls_colors
 
 LS_COLORS setting file and test-directory for many files and may programming language
 
+# Insatllation instructions
+This file goes in the /etc directory, and must be world readable.
+You can copy this file to .dir_colors in your $HOME directory to override
+the system defaults.
 
 # for exapmle
 ## execute
