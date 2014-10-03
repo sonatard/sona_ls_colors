@@ -168,13 +168,13 @@ EXEC 32  # Unix
 
 
 # header
-.h 33
-.hpp 33
-.inc 33
+.h 01:31
+.hpp 01;31
+.inc 01;31
 
 # diff
-.patch 33
-.diff 33
+.patch 31
+.diff 31
 
 
 # Source files
@@ -185,6 +185,7 @@ EXEC 32  # Unix
 .cxx 01;33
 .objc 01;33
 .d 01;33
+.go 01;33
 .java 01;33
 .f 01;33
 .l 01;33
@@ -207,18 +208,19 @@ EXEC 32  # Unix
 .yacc 01;33
 
 
-# Interpreter files
-.sh 01;32
-.bash 01;32
-.csh 01;32
-.zsh 01;32
-.tcl 01;32
+# Shell files
+.sh 31
+.bash 31
+.csh 31
+.zsh 31
+.tcl 31
 
 .bat 01;32  # Win
 .cmd 01;32  # Win
 .vbs 01;32  # Win
 .wsh 01;32  # Win
 
+# Interpreter files
 .erl 01;32
 .fsx 01;32
 .l 01;32
